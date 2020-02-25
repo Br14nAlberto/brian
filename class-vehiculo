@@ -1,0 +1,80 @@
+Package ico.fes.poo;
+Import ico.fes.poo.componentes.;
+Import ico.fes.poo.componentes.;
+Import ico.fes.poo.componentes.;
+
+Public class tunnig {
+   private String color ;
+   private  String amortiguadores;
+   private Int cilindros;
+public tunnig (){
+}
+Public (String c, String a, Int cilin){
+    This.color=c;
+    This.amortiguadores=a;
+    This.cilindros=cilin;
+}
+Public void encender(){
+   System.out.println(“encender auto”);
+}
+Public class vehiculo{
+Private String marca;
+Private String modelo;
+Private float velocidad;
+Private String Llantas;
+Private vehiculo veh1;
+Private vehiculo veh2;
+Public vehiculo (){
+}
+Public vehiculo(string m, String mod,float v, string Ll, vehiculo veh1, vehiculo veh2){
+    This.marca=m;
+    This.modelo=mod;
+    This.velocidad=v;
+    This.Llantas=Ll;
+    This.vehiculo=veh1;
+    This.vehiculo=veh2;
+}
+Public void set marca(string m){
+  This.marca=,m;
+}
+Public string get marca(){
+    Return this.marca;
+}
+Public void set modelo(String mod){
+  This.modelo=mod;
+}
+Public get modelo(){
+    Return this.modelo;
+}
+Public void set velocidad(float v){
+  This.velocidad=v;
+}
+Public get velocidad(){
+    Return this.velocidad;
+}
+Public void set Llanta(string Ll){
+  This.Llantas=Ll;
+}
+Public get Llantas(){
+    Return this.Llantas;
+}
+Public void set vehiculo(vehiculo veh1){
+  This.vehiculo=veh1;
+}
+Public getvehiculo(){
+    Return this.vehiculo;
+}
+Public void encender (){
+System.out.println(“encender auto”);
+}
+Public void apagar  (){
+System.out.println(“apagar auto”);
+}
+}
+Public class Test vehiculo{
+Public static voidmain(String[]args){
+Vehiculo=();
+Vehiculo.set Marca (“Nissan”);
+Vehiculo.set Llantas (“Michelin”, “ goodyear”, “hankook”);
+System.out.println (vehicu1.set().setvelocidad());
+Vehicu1.set ().set velocidad(200kl/hr)
